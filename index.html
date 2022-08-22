@@ -1,0 +1,36 @@
+<html lang="pt-BR">
+<head>
+    <title>Codificador</title>
+    <link href="./css/style.css" rel="stylesheet">
+  
+</head>
+<body>
+        <header>
+            <img src="./img/Vector.svg" alt="logo">
+        </header>
+    <main>
+        <section>
+            <textarea cols="30" rows="10" placeholder="Digite o Seu Texto" class="input-texto"></textarea>
+            
+            <div class="botoes">
+                <button class="encriptar" onclick = "btnEncriptar()">criptografar</button>
+                <button class="desencriptar" onclick= "btnDesencriptar()">Descriptografar</button>
+            </div>
+    
+        </section>
+    
+        <section class="mensagem-box">
+            <textarea name=" " id="Texto" cols="30" rows="10" class="mensagem"> </textarea>
+            <div>
+
+                <img src="./img/imagem.svg" class="img">
+                <button class="copiar" onclick="copiar()">Copiar</button>
+                
+                
+            </div>
+        
+        </section>
+    </main>
+    <script src="./javascript/script.js"></script>
+    </body>
+</html>
